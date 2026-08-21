@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 225" width="150">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)" fill="none" stroke="#00ffd5" stroke-width="3" stroke-linejoin="round">
+    <path d="M100 18 C54 18 34 54 34 95 C34 120 44 134 54 144 L54 166 Q54 182 70 182 L130 182 Q146 182 146 166 L146 144 C156 134 166 120 166 95 C166 54 146 18 100 18 Z"/>
+  </g>
+
+  <g fill="#39ff14" filter="url(#glow)">
+    <ellipse cx="74" cy="94" rx="13" ry="16">
+      <animate attributeName="ry" values="16;16;2;16;16" dur="3.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="126" cy="94" rx="13" ry="16">
+      <animate attributeName="ry" values="16;16;2;16;16" dur="3.2s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <path d="M100 108 l-9 20 h18 z" fill="#00ffd5"/>
+
+  <g filter="url(#glow)" stroke="#00ffd5" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0; 0 5; 0 0" dur="0.45s" repeatCount="indefinite"/>
+    <line x1="70" y1="150" x2="70" y2="180"/>
+    <line x1="84" y1="150" x2="84" y2="182"/>
+    <line x1="100" y1="150" x2="100" y2="182"/>
+    <line x1="116" y1="150" x2="116" y2="182"/>
+    <line x1="130" y1="150" x2="130" y2="180"/>
+    <line x1="62" y1="150" x2="138" y2="150"/>
+  </g>
+
+  <text x="100" y="212" text-anchor="middle" font-family="Courier New, monospace" font-size="16" fill="#39ff14" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" repeatCount="indefinite"/>
+    haha :D
+  </text>
+</svg>
