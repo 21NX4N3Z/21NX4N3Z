@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED LAUGHING SKULL -->
-<img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/skull.svg" width="130" alt="laughing skull" />
-
-<!-- HERO: glitch + laughter typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2600&pause=500&color=00FFD5&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+21NX4N3Z;21N%7C%7C%7CX4N3Z+%C2%B7+glitch;hahaha+%3A%D0%94+skull+laughs;Dev+%C2%B7+tooling+%26+dashboards;Building+things+that+don't+suck" alt="Typing SVG" />
+<!-- HERO: glitch + laughter typing (no skull) -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2600&pause=500&color=00FFD5&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+21NX4N3Z;21N%7C%7C%7CX4N3Z+%C2%B7+glitch;Dev+%C2%B7+tooling+%26+dashboards;Building+things+that+don't+suck" alt="Typing SVG" />
 
 </div>
 
@@ -21,6 +18,18 @@
 
 <div align="center">
 
+<!-- TROPHY ROW (self-hosted, always 200) -->
+<img src="https://img.shields.io/badge/🏆%20Commits-Active-00ffd5?style=for-the-badge&labelColor=0d1117" alt="trophy commits" />
+<img src="https://img.shields.io/badge/🏆%20Repos-5+-39ff14?style=for-the-badge&labelColor=0d1117" alt="trophy repos" />
+<img src="https://img.shields.io/badge/🏆%20Stack-TS%2FReact%2FNext-00ffd5?style=for-the-badge&labelColor=0d1117" alt="trophy stack" />
+<img src="https://img.shields.io/badge/🏆%20Focus-Dashboards-39ff14?style=for-the-badge&labelColor=0d1117" alt="trophy focus" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
 <!-- SUMMARY CARDS -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=21NX4N3Z&theme=github_dark" alt="profile details" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=21NX4N3Z&theme=github_dark" alt="most commit language" />
@@ -34,10 +43,20 @@
 
 </div>
 
+<br/>
+
+<!-- FEATURED PROJECTS -->
+<h2 align="center">📦 Featured Projects</h2>
+
 <div align="center">
 
-<!-- TOP LANGUAGES -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=21NX4N3Z&layout=compact&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&hide_border=true&langs_count=8" alt="Top languages" />
+[![fsae-cost-web](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=fsae-cost-web&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/fsae-cost-web)
+[![bp18-dashboard](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=bp18-dashboard&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/bp18-dashboard)
+[![sairhas-](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=sairhas-&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/sairhas-)
+
+</div>
+
+<div align="center">
 
 <!-- FOOTER -->
 <img src="https://komarev.com/ghpvc/?username=21NX4N3Z&label=profile%20views&color=00ffd5&style=flat-square&labelColor=0d1117" alt="profile views" />
