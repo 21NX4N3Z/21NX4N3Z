@@ -50,9 +50,9 @@
 
 <div align="center">
 
-[![fsae-cost-web](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=fsae-cost-web&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/fsae-cost-web)
-[![bp18-dashboard](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=bp18-dashboard&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/bp18-dashboard)
-[![sairhas-](https://github-readme-stats.vercel.app/api/pin/?username=21NX4N3Z&repo=sairhas-&theme=github_dark&bg_color=0d1117&title_color=00ffd5&text_color=e6edf3&icon_color=39ff14&hide_border=true)](https://github.com/21NX4N3Z/sairhas-)
+[![fsae-cost-web](https://img.shields.io/badge/fsae--cost--web-TypeScript%20%C2%B7%20cost%20entry%20web-00ffd5?style=for-the-badge&logo=typescript&labelColor=0d1117&logoColor=00ffd5)](https://github.com/21NX4N3Z/fsae-cost-web)
+[![bp18-dashboard](https://img.shields.io/badge/bp18--dashboard-Next.js%20%C2%B7%20MongoDB-39ff14?style=for-the-badge&logo=nextdotjs&labelColor=0d1117&logoColor=39ff14)](https://github.com/21NX4N3Z/bp18-dashboard)
+[![sairhas-](https://img.shields.io/badge/sairhas--%20-web%20app-00ffd5?style=for-the-badge&labelColor=0d1117)](https://github.com/21NX4N3Z/sairhas-)
 
 </div>
 
