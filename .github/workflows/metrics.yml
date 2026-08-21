@@ -18,7 +18,7 @@ jobs:
           user: 21NX4N3Z
           template: classic
           base: header, activity, community, repositories, metadata
-          filename: metrics-embed.svg
+          filename: metrics-v3.svg
           config_timezone: Asia/Bangkok
           output_condition: all
           plugin_languages: yes
