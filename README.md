@@ -3,8 +3,8 @@
 <!-- HERO: glitch + laughter typing -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2600&pause=500&color=00FFD5&center=true&vCenter=true&width=760&lines=%24+whoami+%E2%86%92+21NX4N3Z;21N%7C%7C%7CX4N3Z+%C2%B7+glitch;Dev+%C2%B7+tooling+%26+dashboards;Building+things+that+don't+suck" alt="Typing SVG" />
 
-<!-- BANNER -->
-<img src="https://capsule-render.herokuapp.com/api?type=waving&color=0d1117&height=120&section=header&text=21NX4N3Z&fontSize=40&fontColor=00ffd5&animation=fadeIn&fontAlignY=38&desc=developer%20%C2%B7%20tooling%20%C2%B7%20dashboards&descAlignY=60&descAlign=50" alt="banner" />
+<!-- BANNER (self-hosted SVG) -->
+<img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/banner.svg" width="760" alt="banner" />
 
 </div>
 
