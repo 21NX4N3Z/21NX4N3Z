@@ -31,8 +31,8 @@
 
 <div align="center">
 
-<!-- STREAK (DenverCoder1) -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=21NX4N3Z&theme=highcontrast&background=07030f&border=1e0f38&stroke=c084fc&ring=a855f7&fire=c084fc&currStreakNum=d8c8f0&sideNums=d8c8f0&currStreakLabel=a855f7&sideLabels=a855f7&dates=6b5a8a&hide_border=true&cache_seconds=3600" alt="GitHub streak" />
+<!-- STREAK (self-hosted SVG, always 200) -->
+<img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/streak.svg" alt="GitHub streak" />
 
 </div>
 
