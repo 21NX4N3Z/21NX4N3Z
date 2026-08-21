@@ -8,17 +8,6 @@
 
 </div>
 
-<!-- TERMINAL WINDOW: option B (ascii face + box) -->
-<pre align="center">
-      .-"      "-.
-     /  _      _  \
-    |  (_)    (_)  |     ▓▓ 21NX4N3Z ▓▓
-     \    /\    /       ┌─[dev@github]─┐
-      '._    _.'        │ tooling·dash │
-         ''--''         │ web·TS·React │
-                        └─────────────┘
-</pre>
-
 <div align="center">
 
 <!-- TROPHY ROW (markdown-badges style, always 200) -->
