@@ -43,7 +43,7 @@
 
 <div align="center">
 
-![Metrics](https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/metrics.svg)
+![Metrics](https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/metrics-embed.svg)
 
 </div>
 
