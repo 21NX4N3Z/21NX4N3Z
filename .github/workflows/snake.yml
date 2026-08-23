@@ -1,0 +1,28 @@
+name: Snake
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  push: { branches: ["master"] }
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate snake svg
+        uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_user_name: 21NX4N3Z
+          outputs: |
+            dist/snake.svg?color_snake=#a855f7&color_dots=#1e0f38,#7c5cff,#a855f7,#c084fc,#f0abfc
+      - name: Commit snake.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp dist/snake.svg snake.svg
+          git add snake.svg
+          git diff --staged --quiet || git commit -m "chore: update snake [skip ci]"
+          git push

@@ -4,7 +4,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=600&color=C084FC&center=true&vCenter=true&width=620&lines=%24+whoami+%E2%86%92+21NX4N3Z;Dev+%C2%B7+tooling+%26+dashboards;Building+things+that+don't+suck" alt="typing" />
 
-<br/><br/>
+</div>
+
+<img src="./divider.svg" width="100%" alt="" />
+
+<div align="center">
 
 <img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/overview.svg" width="100%" alt="overview" />
 
@@ -21,10 +25,21 @@
 
 <br/>
 
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/snake.svg" width="100%" alt="contribution snake" />
+
+<br/><br/>
+
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,mongodb&theme=dark&perline=5" alt="stack" />
 
-</div>
+<br/><br/>
 
-<div align="center">
+```
+┌─[ 21nx4n3z@github ]──────────────────────┐
+│  status : shipping side projects ▮       │
+│  stack  : ts · react · next · node       │
+└──────────────────────────────────────────┘
+```
+
 <img src="https://komarev.com/ghpvc/?username=21NX4N3Z&label=views&color=c084fc&style=flat-square&labelColor=07030f" alt="views" />
+
 </div>
