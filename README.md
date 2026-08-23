@@ -10,10 +10,11 @@
 
 <div align="center">
 
-<table><tr>
-<td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/overview.svg" width="440" alt="overview" /></td>
-<td><img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/mascot.svg" width="240" alt="mascot" /><br/><img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/status.svg" width="240" alt="status" /></td>
-</tr></table>
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/overview.svg" width="100%" alt="overview" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/status.svg" width="420" alt="status" />
 
 <br/>
 
