@@ -10,13 +10,20 @@
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/overview.svg" width="100%" alt="overview" />
+<table><tr>
+<td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/overview.svg" width="440" alt="overview" /></td>
+<td><img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/mascot.svg" width="240" alt="mascot" /><br/><img src="https://raw.githubusercontent.com/21NX4N3Z/21NX4N3Z/master/status.svg" width="240" alt="status" /></td>
+</tr></table>
 
-<br/><br/>
+<br/>
 
 <img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/isocalendar-full.svg" width="100%" alt="commit calendar" />
 
-<br/><br/>
+<br/>
+
+<img src="./divider.svg" width="100%" alt="" />
+
+<br/>
 
 <table><tr>
 <td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/languages.svg" width="420" alt="languages" /></td>
@@ -27,11 +34,21 @@
 
 <img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/snake.svg" width="100%" alt="contribution snake" />
 
-<br/><br/>
+<br/>
+
+<img src="./divider.svg" width="100%" alt="" />
+
+<br/>
+
+<a href="https://github.com/21NX4N3Z/fsae-cost-web"><img src="https://img.shields.io/github/stars/21NX4N3Z/fsae-cost-web?label=fsae-cost-web&style=flat-square&color=a855f7&labelColor=07030f&logo=typescript&logoColor=c084fc" alt="fsae-cost-web" /></a>
+<a href="https://github.com/21NX4N3Z/bp18-dashboard"><img src="https://img.shields.io/github/stars/21NX4N3Z/bp18-dashboard?label=bp18-dashboard&style=flat-square&color=c084fc&labelColor=07030f&logo=nextdotjs&logoColor=c084fc" alt="bp18-dashboard" /></a>
+<a href="https://github.com/21NX4N3Z/sairhas-"><img src="https://img.shields.io/github/stars/21NX4N3Z/sairhas-?label=sairhas-&style=flat-square&color=7c5cff&labelColor=07030f" alt="sairhas-" /></a>
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,mongodb&theme=dark&perline=5" alt="stack" />
 
-<br/><br/>
+<br/>
 
 ```
 ┌─[ 21nx4n3z@github ]──────────────────────┐
