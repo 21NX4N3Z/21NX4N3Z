@@ -47,6 +47,26 @@
 
 <br/>
 
+<!-- SHOWCASE GALLERY: isocalendar + habits -->
+<h2 align="center">⚡ Activity Showcase</h2>
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/isocalendar-full.svg" width="100%" alt="Isometric commit calendar" />
+
+<br/><br/>
+
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/habits-charts.svg" width="100%" alt="Coding habits charts" />
+
+<br/><br/>
+
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/achievements.svg" width="60%" alt="Achievements" />
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/lines-history.svg" width="39%" alt="Lines of code changed" />
+
+</div>
+
+<br/>
+
 <!-- FEATURED PROJECTS (Badges4 / markdown-badges style) -->
 <h2 align="center">📦 Featured Projects</h2>
 

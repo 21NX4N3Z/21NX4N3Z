@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate metrics
+      # ── MAIN DASHBOARD (all plugins) ──
+      - name: Generate main dashboard
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -22,84 +23,77 @@ jobs:
           config_timezone: Asia/Bangkok
           plugins_errors_fatal: no
           output_condition: all
-          # ── languages ──
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used, recent-activity
           plugin_languages_indepth: yes
-          # ── activity ──
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_limit: 5
           plugin_activity_visibility: all
-          plugin_activity_timestamps: yes
-          # ── followup ──
           plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          # ── achievements ──
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          # ── introduction ──
           plugin_introduction: yes
-          # ── topics ──
-          plugin_topics: yes
-          plugin_topics_limit: 20
-          plugin_topics_mode: labels
-          # ── stars ──
-          plugin_stars: yes
-          plugin_stars_limit: 3
-          # ── repositories ──
-          plugin_repositories: yes
-          plugin_repositories_featured: 21NX4N3Z/fsae-cost-web, 21NX4N3Z/bp18-dashboard, 21NX4N3Z/sairhas-
-          plugin_repositories_pinned: 21NX4N3Z/fsae-cost-web, 21NX4N3Z/bp18-dashboard
-          plugin_repositories_random: 0
-          # ── lines (history) ──
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          # ── habits ──
+      # ── ISOMETRIC CALENDAR (full year, 3D) ──
+      - name: Generate isocalendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          user: 21NX4N3Z
+          base: ""
+          filename: isocalendar-full.svg
+          config_timezone: Asia/Bangkok
+          config_display: large
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      # ── CODING HABITS (charts + facts) ──
+      - name: Generate habits
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          user: 21NX4N3Z
+          base: ""
+          filename: habits-charts.svg
+          config_timezone: Asia/Bangkok
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_days: 14
-          # ── calendar (isocalendar) ──
-          plugin_calendar: yes
-          plugin_calendar_limit: 2
-          # ── people ──
-          plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: followers, following
-          # ── notable ──
-          plugin_notable: yes
-          plugin_notable_sections: repository, user
-          plugin_notable_repositories: yes
-          # ── starlists ──
-          plugin_starlists: yes
-          plugin_starlists_limit: 2
-          # ── gists ──
-          plugin_gists: yes
-          plugin_gists_limit: 2
-          # ── issues ──
-          plugin_issues: yes
-          plugin_issues_limit: 5
-          # ── projects ──
-          plugin_projects: yes
-          plugin_projects_limit: 4
-          # ── licenses ──
-          plugin_licenses: yes
-          # ── contributors ──
-          plugin_contributors: yes
-          plugin_contributors_limit: 3
-          # ── stargazers ──
-          plugin_stargazers: yes
-          plugin_stargazers_limit: 3
-      - name: Commit metrics
+          plugin_habits_languages_limit: 8
+      # ── ACHIEVEMENTS (detailed) ──
+      - name: Generate achievements
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          user: 21NX4N3Z
+          base: ""
+          filename: achievements.svg
+          config_timezone: Asia/Bangkok
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+      # ── LINES HISTORY ──
+      - name: Generate lines history
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          user: 21NX4N3Z
+          base: ""
+          filename: lines-history.svg
+          config_timezone: Asia/Bangkok
+          plugin_lines: yes
+          plugin_lines_sections: history
+          plugin_lines_history_limit: 1
+      - name: Commit all metrics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add metrics-v3.svg
+          git add *.svg
           git diff --staged --quiet || git commit -m "chore: update metrics [skip ci]"
           git push
