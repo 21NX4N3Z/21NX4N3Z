@@ -23,21 +23,9 @@ jobs:
           config_display: large
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-      # ── LANGUAGES INDEPTH (rich graph from repo code) ──
-      - name: Generate languages
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          user: 21NX4N3Z
-          base: ""
-          filename: languages.svg
-          config_timezone: Asia/Bangkok
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_indepth: yes
       # ── LINES HISTORY (graph) ──
+      # note: languages.svg is generated locally (custom script) — GitHub cannot render
+      # lowlighter's foreignObject output inside README, so we keep the hand-made bars.
       - name: Generate lines history
         uses: lowlighter/metrics@v3.34
         with:
@@ -54,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add isocalendar-full.svg languages.svg lines-history.svg
+          git add isocalendar-full.svg lines-history.svg
           git diff --staged --quiet || git commit -m "chore: update metric graphics [skip ci]"
           git push
