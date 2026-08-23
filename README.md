@@ -38,14 +38,12 @@
 
 <br/>
 
-<!-- LOWLIGHTER METRICS (self-rendered) -->
+<!-- LOWLIGHTER METRICS (metrics-embed @v3.34 - full width overlay) -->
 <h2 align="center">📊 Metrics Dashboard</h2>
 
-<div align="center">
-
-![Metrics](https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/metrics-v3.svg)
-
-</div>
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/metrics-v3.svg" width="100%" alt="Metrics" />
+</p>
 
 <br/>
 
