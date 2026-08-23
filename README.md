@@ -15,7 +15,7 @@
 <br/><br/>
 
 <table><tr>
-<td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/habits-charts.svg" width="420" alt="habits" /></td>
+<td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/languages.svg" width="420" alt="languages" /></td>
 <td><img src="https://cdn.jsdelivr.net/gh/21NX4N3Z/21NX4N3Z@master/lines-history.svg" width="330" alt="lines" /></td>
 </tr></table>
 
