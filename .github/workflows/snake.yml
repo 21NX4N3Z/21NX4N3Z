@@ -1,6 +1,6 @@
 name: Snake
 on:
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule: [{ cron: "15 0 * * *" }]
   push: { branches: ["master"] }
   workflow_dispatch:
 permissions:
@@ -25,4 +25,5 @@ jobs:
           cp dist/snake.svg snake.svg
           git add snake.svg
           git diff --staged --quiet || git commit -m "chore: update snake [skip ci]"
+          git pull --rebase
           git push

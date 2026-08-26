@@ -41,11 +41,23 @@
 
 <a href="https://github.com/21NX4N3Z/fsae-cost-web"><img src="https://img.shields.io/github/stars/21NX4N3Z/fsae-cost-web?label=fsae-cost-web&style=flat-square&color=a855f7&labelColor=07030f&logo=typescript&logoColor=c084fc" alt="fsae-cost-web" /></a>
 <a href="https://github.com/21NX4N3Z/bp18-dashboard"><img src="https://img.shields.io/github/stars/21NX4N3Z/bp18-dashboard?label=bp18-dashboard&style=flat-square&color=c084fc&labelColor=07030f&logo=nextdotjs&logoColor=c084fc" alt="bp18-dashboard" /></a>
-<a href="https://github.com/21NX4N3Z/sairhas-"><img src="https://img.shields.io/github/stars/21NX4N3Z/sairhas-?label=sairhas-&style=flat-square&color=7c5cff&labelColor=07030f" alt="sairhas-" /></a>
+<a href="https://github.com/21NX4N3Z/eco-forge"><img src="https://img.shields.io/github/stars/21NX4N3Z/eco-forge?label=eco-forge&style=flat-square&color=22d3ee&labelColor=07030f&logo=vercel&logoColor=22d3ee" alt="eco-forge" /></a>
+<a href="https://github.com/21NX4N3Z/sairhas-next"><img src="https://img.shields.io/github/stars/21NX4N3Z/sairhas-next?label=sairhas-next&style=flat-square&color=7c5cff&labelColor=07030f" alt="sairhas-next" /></a>
 
 <br/>
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,mongodb&theme=dark&perline=5" alt="stack" />
+
+<br/>
+
+```
+┌─[ selected-work ]─────────────────────────────────────────────┐
+│  eco-forge      AI carbon engineering for Thai SMEs    live ↗ │
+│  bp18-dashboard FSAE frame & body command center             │
+│  fsae-cost-web  FSAE/BAJA cost reports, auto-calculated       │
+│  sairhas-next   code line pairing system                      │
+└───────────────────────────────────────────────────────────────┘
+```
 
 <br/>
 
